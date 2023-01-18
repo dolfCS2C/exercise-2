@@ -1,0 +1,22 @@
+public class Lamborghini extends Cars{ 
+         private String releasedate; 
+  
+         public Lamborghini(String name, double weight, String releasedate){ 
+                 super (name, weight); 
+                 this.releasedate = releasedate; 
+         } 
+  
+         @Override 
+         public String makesound() 
+         { 
+                 return "broob! broob!,"; 
+         } 
+  
+         public String getReleasedate(){ 
+                 return releasedate; 
+         } 
+  
+         public void SetReleasedate(String releasedate){ 
+                 this.releasedate = releasedate; 
+         } 
+ }
